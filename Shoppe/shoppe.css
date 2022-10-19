@@ -1,0 +1,113 @@
+/* general styles */
+body {
+    padding: 5rem;
+}
+header {
+    display: flex;
+    flex-direction: row;
+}
+a {
+    color: black;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+
+/* header styles */
+.navigation {
+    font-family: Arial, Helvetica, sans-serif;
+    width: 35%;
+    height: 3rem;
+    margin-left: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+}
+.link {
+    display: inline-block;
+    width: 5rem;
+}
+.icon-container {
+    display: inline-block;
+    width: 3rem;
+}
+.separator {
+    display: inline-block;
+    width: 3rem;
+    font-size: 1.4rem;
+    color: gray;
+}
+@font-face {
+    font-family: AllertaStencil;
+    src: url(./Allerta_Stencil/AllertaStencil-Regular.ttf);
+}
+.logo {
+    font-family: "AllertaStencil";
+    font-size: 35px;
+}
+.logo .first-letter {
+    color: #A18A68;
+}
+
+/* Main body styles */
+.hero-container {
+    padding-top: 1rem;
+}
+p, h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+}
+a.right {
+    font-size: 1rem;
+    float: right;
+    color: #A18A68;
+}
+.row {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 3rem;
+}
+.item {
+    margin-right: 4rem;
+    width: 30%;
+}
+.item img {
+    width: 100%;
+    height: auto;
+}
+.item:last-child {
+    margin-right: 0rem;
+}
+.price {
+    color: #A18A68;
+}
+
+/* Footer styles */
+footer {
+    display: flex;
+    flex-direction: row;
+    padding-top: 2rem;
+}
+.footer-links a {
+    color: gray;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-right: 2rem;
+}
+.newsletter-container input, button {
+    border: none;
+    background-color: white;
+}
+.newsletter-container input[type="text"] {
+    width: 300px;
+    height: 2rem;
+}
+.newsletter-container {
+    border-bottom: 1px solid black;
+    margin-left: auto;
+    width: 28%;
+}
+.newsletter-container button[type="submit"] {
+    float: right;
+}
